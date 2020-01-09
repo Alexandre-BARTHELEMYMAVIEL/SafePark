@@ -1,0 +1,76 @@
+#mainNav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #F2C05E;
+}
+
+nav{
+    width: 100%;
+    background-color: #F2C05E;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+nav i{
+    font-size: 19px; 
+}
+
+.menu-home:hover{
+    border-top: 5px;
+    background-color: rgba(228,77,38,0.5);
+    transition: 0.3s all;
+}
+
+.menu-projet:hover{
+    border-top: 5px;
+    background-color: rgba(228,77,38,0.5);
+    transition: 0.3s all;
+}
+
+.menu-equipe:hover{
+    border-top: 5px;
+    background-color: rgba(228,77,38,0.5);
+    transition: 0.3s all;
+}
+
+.menu-souteneznous:hover{
+    border-top: 5px;
+    background-color: rgba(228,77,38,0.5);
+    transition: 0.3s all;
+}
+
+.menu-forum:hover{
+    border-top: 5px;
+    background-color: rgba(228,77,38,0.5);
+    transition: 0.3s all;
+}
+
+.table{
+    display: table;
+    margin: 0px auto;
+}
+
+
+
